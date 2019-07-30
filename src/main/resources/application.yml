@@ -4,3 +4,10 @@ github:
     secret: b50f4bea27704064d24009cc557d4f091ec6335e
   redirect:
     uri: http://localhost:8080/callback
+
+spring:
+  datasource:
+    password: 123456
+    username: root
+    url: jdbc:mysql://localhost:3306/community
+    driver-class-name: com.mysql.jdbc.Driver
